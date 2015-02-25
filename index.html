@@ -1,10 +1,76 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Erin McGowan Github</title>
+    <title>Erin Technology Assignment</title>
+    <link type="text/css" rel="stylesheet" href="css/style.css" >
   </head>
   <body>
-    <h1>Erin McGowan</h1>
-    <p><img src="img/brugge_buildings.jpg" alt="Brugge Buildings"/></p>
+    <p><img src="img/ancestry_large.png" alt="Ancestry Logo"></p>
+
+    <p>Ancestry.com is the largest for-profit genealogy company in the world (Wayner).
+      Their mission is to "help everyone discover, preserve and share their family history"
+      (About Ancestry).  It operates a "network of genealogical and historical record websites
+      focused on the United States and nine foreign countries, develops and markets
+      genealogical software, and offers a wide array of genealogical related services"
+      (Wayner).  Ancestry.com has more than 2 million paying subscribers worldwide (About Ancestry).</p>
+
+    <p>The software development engineers must be familiar with Java Tools, the Java Runtime
+      Environment, CMS system or any Java/JSP CMS system, and various open source technologies.
+      These engineers must be "proficient in SQL, database schema design and implementation
+      (tables, queries, triggers, views, and stored procedures)" (Careers).  Individuals in
+      this field must have a "solid Java/JSP/Spring/Templating experience" with an understanding
+      of "full web technology stack (HTTP/HTTPS, Cookies, Headers, MVC)" (Careers).</p>
+
+    <p>Some sections of Ancestry.com is run through data mining clusters using the Hadoop software
+      library (Yetman).  Ancestry.com has a "well-established EDW that contains some very large data
+      sets used to track customer behavior" (Yetman).  The engineers are moving those data sets into
+      "Hadoop, aggregating them, and sending the results to the EDW" (Yetman).  There are Ancestry.com
+      offices located all around the world.  They use Git because it offers "wide scale collaboration"
+      as well as the ease of branching and merging projects (Shee).  This type of "code management is
+      ideal for parallel development work used by open source projects" (Shee).</p>
+
+    <p>Ancestry.com has an external API that is used by their mobile apps and "other strategic
+      initiatives to share and update a person's family tree, events, stories and photos" (Madsen).
+      Their external API has been most important in their mobile efforts so they are always looking
+      for ways to improve and enhance their systems and application.  They recently made some changes
+      that proved success with their mobile application:</p>
+
+    <p><ul>
+      <li>Pass Through: "Rather than aggregate [their] services at the API layer, [they] took the
+        strategy of creating a "pass-through" layer back to [their] backend services. This put the
+        responsibility directly on [their] services to further optimize their code, and in some
+        cases, create new endpoints specifically with mobile usage in mind. This methodology also
+        enabled the mobile teams to more effectively cache data according to their needs and
+        Service team recommendations" (Madsen).</li>
+      <li>Cashing: "Because [they] changed [their] API model to a pass-through, the mobile app
+        could now cache data from each call at appropriate intervals thus taking pressure off of the
+        backend services and network. This meant fewer calls (in the long run) to the external API"
+        (Madsen).</li>
+    </ul></p>
+
+    <p>Ancestry.com "acquired a very exciting property called Find A Grave which focused on collecting
+      content around the graves of family, loved ones and famous people" (Schultz).  The engineers
+      were to manage a "successful transition and focus on new experiences" (Schultz). This was a
+      challenge because Find A Grave "serves millions of page views a day, was running on a different
+      web technology stack, sitting in a set of physical rack mount servers in a separate data center
+      at the time, and contains over 100 million photos and over 116 million memorials" (Schultz).
+      The objective of the project was to "transition all hardware and code to a modernized
+      infrastructure within a short amount of time to provide the Find A Grave users with a better
+      performing experience and support future scale and growth over the years" (Schultz).  The
+      engineers started with the infrastructure.  The team was able to "migrate all infrastructure,
+      photos, database and content to the Ancestry data center.  It was a very complex task as [they]
+      needed to keep the existing site running live during this whole process.  [They] also wanted
+      to modernize the infrastructure and virtualize everything in [their] private virtual cloud.
+      Part of this was using Go for continuous integration and Chef for deployment and provisioning
+      to [their] virtual instances.  This will allow [them] to scale to future growth beyond the
+      acquisition" (Schultz).  Next, the team at Ancestry.com created a 1.0 iOS application (Schultz).
+      They then focused on the backend of Find a Grave by building a web based application using
+      Node.js because it "works perfectly for [their] JSON API layer, provided great real-time support
+      for [their] iOS app and works great for some of the new NoSQL infrastructure" (Schultz).</p>
+
+    <br><br><br>
+
+    <p><a href="references.html">References</a></p>
+
   </body>
 </html>
